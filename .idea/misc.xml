@@ -11,6 +11,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/market-data/pom.xml" />
+        <option value="$PROJECT_DIR$/trade/pom.xml" />
       </list>
     </option>
   </component>
