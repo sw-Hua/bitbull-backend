@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.songwen</groupId>
-	<artifactId>Btc</artifactId>
+	<artifactId>btc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Btc</name>
+	<name>btc</name>
 	<description>Bitbull project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
