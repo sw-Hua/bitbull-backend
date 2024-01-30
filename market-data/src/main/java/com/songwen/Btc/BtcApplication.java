@@ -1,13 +1,12 @@
-package com.songwen.marketdata;
+package com.songwen.Btc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MarketDataApplication {
-
+public class BtcApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(MarketDataApplication.class, args);
+		SpringApplication.run(BtcApplication.class, args);
 	}
 
 }
