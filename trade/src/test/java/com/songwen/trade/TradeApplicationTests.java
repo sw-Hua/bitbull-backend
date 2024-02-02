@@ -1,4 +1,4 @@
-package com.trade.trade;
+package com.songwen.trade;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

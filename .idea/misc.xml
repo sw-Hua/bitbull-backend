@@ -13,7 +13,16 @@
         <option value="$PROJECT_DIR$/market-data/pom.xml" />
         <option value="$PROJECT_DIR$/trade/pom.xml" />
         <option value="$PROJECT_DIR$/btc/pom.xml" />
+        <option value="$PROJECT_DIR$/../Job-Recommendation-System-Backend/business-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../Job-Recommendation-System-Backend/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../Job-Recommendation-System-Backend/business-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../Job-Recommendation-System-Backend/eureka-server/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
