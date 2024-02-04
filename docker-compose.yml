@@ -1,0 +1,29 @@
+version: '3.1'
+
+services:
+  eureka-server:
+    build: ./eureka-server
+    restart: always
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eureka-server:8761/eureka/ # 设置Eureka服务器的地址和端口
+      - server.port=${eureka_port}
+    ports:
+      - 8761:8761 # 映射Eureka服务器的端口，如果Eureka使用默认端口8761
+
+  business-service:
+    build: ./business-service
+    restart: always
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eureka-server:8761/eureka/ # 设置Eureka服务器的地址和端口
+      - server.port=${business_service_port}
+    ports:
+      - 8081:${business_service_port}
+
+  gateway-service:
+    build: ./gateway-service
+    restart: always
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eureka-server:8761/eureka/ # 设置Eureka服务器的地址和端口
+      - server.port=${gateway_service_port}
+    ports:
+      - 8082:${gateway_service_port}

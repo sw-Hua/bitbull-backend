@@ -8,15 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="btc" />
-        <module name="trade" />
         <module name="business-service" />
+        <module name="trade" />
         <module name="eureka-server" />
+        <module name="gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Btc" target="17" />
       <module name="business-service (1) (com.songwen)" target="1.5" />
       <module name="business-service (2) (com.jrsystem)" target="17" />
+      <module name="discovery-service" target="17" />
       <module name="eureka-server (1) (com.songwen)" target="17" />
       <module name="eureka-server (2) (com.jrsystem)" target="17" />
       <module name="market-data" target="17" />
@@ -28,9 +30,11 @@
       <module name="btc" options="-parameters" />
       <module name="business-service" options="-parameters" />
       <module name="business-service (2) (com.jrsystem)" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server (1) (com.songwen)" options="-parameters" />
       <module name="eureka-server (2) (com.jrsystem)" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="market-data" options="-parameters" />
       <module name="trade" options="-parameters" />
     </option>
