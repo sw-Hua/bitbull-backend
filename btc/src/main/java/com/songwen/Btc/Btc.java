@@ -11,4 +11,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Btc {
     private double USD;
+
+    @Override
+    public String toString() {
+        return "Btc{" +
+                "USD=" + USD +
+                '}';
+    }
 }

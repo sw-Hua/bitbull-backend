@@ -79,6 +79,10 @@
         <module>btc</module>
         <module>trade</module>
         <module>gateway-service</module>
+        <module>market-report</module>
+        <module>message</module>
+        <module>cryptocards</module>
+        <module>accountBalance</module>
     </modules>
 
     <build>

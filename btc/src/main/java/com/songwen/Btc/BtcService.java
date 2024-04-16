@@ -7,10 +7,23 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class BtcService {
 
-    public Btc getBtcPrice() {
+    public String getBtc() {
         String url = "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD";
         RestTemplate restTemplate = new RestTemplate();
-        Btc btc = restTemplate.getForObject(url, Btc.class);
-        return btc;
+        System.out.println(restTemplate.getForObject(url, String.class));
+        return restTemplate.getForObject(url, String.class);
+    }
+
+    public double getBtcPrice() {
+        String url = "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD";
+        RestTemplate restTemplate = new RestTemplate();
+        String response = restTemplate.getForObject(url, String.class);
+
+        // 截取 USD 后面的数字部分
+        String usdString = response.substring(response.indexOf(":") + 1, response.length() - 1);
+        // 转换成 double 类型
+        double usdValue = Double.parseDouble(usdString);
+
+        return usdValue;
     }
 }

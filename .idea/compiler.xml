@@ -8,10 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="btc" />
-        <module name="business-service" />
         <module name="trade" />
-        <module name="eureka-server" />
+        <module name="market-report" />
         <module name="gateway-service" />
+        <module name="business-service" />
+        <module name="message" />
+        <module name="accountBalance" />
+        <module name="eureka-server" />
+        <module name="cryptocards" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,15 +31,19 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Btc" options="-parameters" />
+      <module name="accountBalance" options="-parameters" />
       <module name="btc" options="-parameters" />
       <module name="business-service" options="-parameters" />
       <module name="business-service (2) (com.jrsystem)" options="-parameters" />
+      <module name="cryptocards" options="-parameters" />
       <module name="discovery-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server (1) (com.songwen)" options="-parameters" />
       <module name="eureka-server (2) (com.jrsystem)" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="market-data" options="-parameters" />
+      <module name="market-report" options="-parameters" />
+      <module name="message" options="-parameters" />
       <module name="trade" options="-parameters" />
     </option>
   </component>

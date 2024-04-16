@@ -109,8 +109,61 @@ docker-compose up -d
 - **日志和监控**：配置日志管理（如ELK栈）和监控（如Prometheus和Grafana）来监控应用和集群的健康状况。
 - **持续运维**：根据应用的运行情况，进行持续的性能调优、故障排查和版本更新。
 
+## 初步系统实现流程
 
+1 初步搭建微服务模版
+
+2 初步搭建前端模版
+
+3 
+
+4 
+
+5 
 
 ## 系统架构图
 
 Sting Working
+
+
+
+
+
+
+
+## 系统的目的
+
+我们想要搭建一个基于AI和比特币的量化炒股模拟平台
+
+
+
+## 可参考项目
+
+[AI股票量化交易工具和开源项目汇总](https://zhuanlan.zhihu.com/p/562878605)
+
+GPT总结了一些常见的[策略](https://chat.openai.com/share/72c3f2e6-b8a6-445c-8097-50e955c5daae)
+
+
+
+## 实现难点
+
+比特币炒股使用非中心化？如何实现
+
+[AI预测股票](https://longfly04.github.io/A-Stock-Prediction-System-with-Deep-Learning/doc/2.%E7%A0%94%E7%A9%B6%E7%8E%B0%E7%8A%B6.html)方面如何实现？
+
+[量化策略](https://www.linkedin.com/pulse/%E7%BE%8E%E5%9B%BD%E7%9B%AE%E5%89%8D%E6%AF%94%E8%BE%83%E6%B5%81%E8%A1%8C%E7%9A%845%E7%A7%8D%E9%87%8F%E5%8C%96%E4%BA%A4%E6%98%93%E6%A8%A1%E5%9E%8B-haoran-henry-hu/?originalSubdomain=cn)方面如何实现？ 
+
+主要炒境内合规的[QDII](https://www.hankunlaw.com/portal/article/index/cid/8/id/13699.html)
+
+
+
+
+
+## 系统实现的功能
+
+- 以比特币等虚拟货币为基准货币
+- 根据ai预测来判断是否要买股票/基金
+- 也可以使用自动化的量化策略来完成交易
+
+
+
