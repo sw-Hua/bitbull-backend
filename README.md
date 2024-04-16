@@ -167,6 +167,15 @@ GPT总结了一些常见的[策略](https://chat.openai.com/share/72c3f2e6-b8a6-
 
 
 # Kafka
+- Consumer and Producer
 
+# Jenkins
+- https://medium.com/@sushantkapare1717/real-time-ci-cd-pipeline-from-scratch-with-jenkins-883eb6e87e2
+
+# Kubenates
+- https://medium.com/aspnetrun/deploying-microservices-on-kubernetes-35296d369fdb
+
+# Docker
+- https://medium.com/connect-the-dots/building-microservices-with-docker-and-the-rails-api-gem-2a463862f5d
 
 
